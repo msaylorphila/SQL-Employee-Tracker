@@ -1,9 +1,9 @@
-const { json } = require('express');
 const inquirer = require('inquirer');
 const { db } = require('../server');
 const { Query } = require('./query')
 
 let query = new Query(db)
+
 const list = [{
     type: 'list',
     message: 'Please select one',
