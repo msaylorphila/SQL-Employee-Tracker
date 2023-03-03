@@ -20,6 +20,5 @@ VALUES (001, "Margaret", "Cranston",  004, null),
        (006, "Ben", "Gallis", 003, 3);
 
 
--- INSERT INTO managers (first_name, last_name,manager_id)
--- VALUES ("Alex", "Godshalk",002),
+
       
